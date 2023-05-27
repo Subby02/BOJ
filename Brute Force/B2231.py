@@ -5,7 +5,7 @@ import sys
 n = int(sys.stdin.readline())
 
 isExist = False
-for i in range(1, n+1):
+for i in range(1, n + 1):
   total = i
   value = i
   while value >= 1:
