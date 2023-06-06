@@ -50,7 +50,7 @@ input = sys.stdin.readline
 n, k= map(int, input().split())
 INF = 1e9
 
-def dijkstra(N,K):
+def dijkstra(n,k):
     distance = [INF]*(100001)
     distance[N] =0 
     hq = []
